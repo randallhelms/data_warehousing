@@ -1,6 +1,7 @@
 *Database characteristics*
 
 Data are raw facts:
+
 	* Conventional raw facts: number and text
 	* Unconventional raw facts: images, drawings, fingerprints, maps, etc
 	
@@ -54,16 +55,19 @@ Desktop DBMS support smaller groups of users, small data volumes
 Embedded DBMS sold by value-added software resellers, require little maintenance
 
 Database Definition distinguishes databases from spreadsheets and documents
+
 	No planning required for standard docs/spreadsheets
 	Planning is essential for databases
 	Need to build a database diagram when starting
 	Visual representation of table relationships
 	
 Standard tools for creating tables:
+
 	Structured Query Language (SQL)
 	Graphical tools, i.e. diagrams
 	
 Planning for databases:
+
 	Requires planning
 	Initial planning always essential, often laborious
 	
@@ -78,6 +82,7 @@ No looping statements involved, makes it easy to get data; requires much less co
 Big difference in software productivity; factor of 2-100
 
 Examples of NPA: 
+
 	Select statement in SQL
 	Microsoft Access graphical tools
 	No industry standard tools
@@ -93,6 +98,7 @@ NPA makes report creation possible without extensive coding
 Transaction Management is about management of electronic goods
 
 Examples
+
 	Online banking
 	E-travel
 	E-Commerce
@@ -115,21 +121,25 @@ Transactions that fail in the course of the transaction cause rollbacks
 *Data warehouse processing*
 
 Traditional management hierarchy:
+
 	Top: Strategic
 	Middle: Tactical
 	Lower: Operational
 	
 Operational examples:
+
 	Resolution of delays
 	Scheduling employees
 	Restocking products
 	
 Tactical examples:
+
 	Forecasting sales
 	Choosing suppliers
 	Determining annual staffing levels
 	
 Strategic examples:
+
 	* Identify new markets
 	* Determine pricing levels
 	* Choose new locations
@@ -137,6 +147,7 @@ Strategic examples:
 Operational databases support these functions
 
 Reasons to get an operational database:
+
 	* Faster processing
 	* Larger volumes of business
 	* Reduced personnel costs
@@ -146,10 +157,12 @@ Integration is necessary to connect operational, tactical and strategic data set
 Data Warehouse is a logically centralized data repositor where data from operational databases and other sources are integrated, cleaned and standardized to support business intelligence
 
 Tangible benefit:
+
 	* Increased revenue
 	* Decreased expenses
 	
 Levels of data:
+
 	* Individual-level data
 	* Summarized data
 	
