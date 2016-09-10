@@ -1,8 +1,8 @@
 *Database characteristics*
 
 Data are raw facts:
-	1. Conventional raw facts: number and text
-	2. Unconventional raw facts: images, drawings, fingerprints, maps, etc
+	* Conventional raw facts: number and text
+	* Unconventional raw facts: images, drawings, fingerprints, maps, etc
 	
 Transformation from data to information involves work
 
@@ -13,8 +13,8 @@ Characteristics of databases:
 	Shared: Links from database to applications, and to multiple users
 	
 Databases:
-	support daily operations and decision making
-	vital to modern organizations
+	* support daily operations and decision making
+	* vital to modern organizations
 
 *Organizational Roles*
 
@@ -130,28 +130,28 @@ Tactical examples:
 	Determining annual staffing levels
 	
 Strategic examples:
-	Identify new markets
-	Determine pricing levels
-	Choose new locations
+	* Identify new markets
+	* Determine pricing levels
+	* Choose new locations
 	
 Operational databases support these functions
 
 Reasons to get an operational database:
-	Faster processing
-	Larger volumes of business
-	Reduced personnel costs
+	* Faster processing
+	* Larger volumes of business
+	* Reduced personnel costs
 	
 Integration is necessary to connect operational, tactical and strategic data sets
 	
 Data Warehouse is a logically centralized data repositor where data from operational databases and other sources are integrated, cleaned and standardized to support business intelligence
 
 Tangible benefit:
-	Increased revenue
-	Decreased expenses
+	* Increased revenue
+	* Decreased expenses
 	
 Levels of data:
-	Individual-level data
-	Summarized data
+	* Individual-level data
+	* Summarized data
 	
 Operational databases have a process orientation
 Data warehouses have a subject orientation
