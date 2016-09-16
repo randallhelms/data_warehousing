@@ -1,4 +1,4 @@
-*Database characteristics*
+**Database characteristics**
 
 Data are raw facts:
 
@@ -17,7 +17,7 @@ Databases:
 	* support daily operations and decision making
 	* vital to modern organizations
 
-*Organizational Roles*
+**Organizational Roles**
 
 Functional users - Work with data as part of their work
 Information Technology users - Involved with designing and implementing databases
@@ -37,7 +37,7 @@ Types of IT users
 	
 Large organizations have more specialization, small organizations have more variety
 
-*DBMS overview and database definition*
+**DBMS overview and database definition**
 
 Definition: Database Management System (DBMS) is a collection of components that supports the creation, use and maintenance of databases.
 
@@ -71,7 +71,7 @@ Planning for databases:
 	Requires planning
 	Initial planning always essential, often laborious
 	
-*Non-Procedural Access"
+**Non-Procedural Access**
 	
 Question: How much have software costs been reduced by non-procedural database access?
 
@@ -93,7 +93,7 @@ Reports enhance appearance of data (i.e. indentation)
 
 NPA makes report creation possible without extensive coding
 
-*Transaction Processing*
+**Transaction Processing**
 
 Transaction Management is about management of electronic goods
 
@@ -118,7 +118,7 @@ DBMS systems improve the productivity of developers (they don't need to write al
 
 Transactions that fail in the course of the transaction cause rollbacks
 
-*Data warehouse processing*
+**Data warehouse processing**
 
 Traditional management hierarchy:
 
@@ -174,4 +174,44 @@ BI processing requires substantial processing resources
 DWs support tactical and strategic decision making
 Different DBMS features for BI support
 
-*DBMS technology evolution*
+**DBMS technology evolution**
+
+Generations of DBMS technologies
+
+	1st generation (1960s) - File oriented:
+		Sequential and random searching of files
+		User required to write detailed code to access data
+		No standards
+	2nd generation (1970s) - Navigational:
+		Could manage multiple entity types and relationships
+		Still had to write computer program to access data
+		Progress on standards
+	3rd generation (1980s) - Relational:
+		Mathematical relations and associated operators
+		Optimization technology developed
+		IBM research enabled commercialization of relational database technology
+	4th generation (1990s - now) - Object oriented:
+		Extending boundaries of database technology
+		New kinds of distributed processing
+		Store and manipulate unconventional data types
+		Conventient ways to publish static and dynamic web data
+
+Cloud computing supports on-demand processing and storage methods
+
+Cloud computing supports big data
+
+Sources of big data growth:
+
+	Phone data
+	Cars
+	Thermostats
+	Social media
+	Medical data
+	Streaming media
+	Security
+	
+NoSQL technology has been developed to deal with unconventional data sources
+
+Open source DBMS market has begun to challenge commercial DBMS at low end of enterprise markets
+
+MySQL is open source leader, but also popular are MongoDB, PostgreSQL, MariaDB
