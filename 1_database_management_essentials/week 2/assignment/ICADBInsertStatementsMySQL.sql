@@ -1,7 +1,4 @@
-Insert into Employee (empno,empname,department,email,phone) values ('E100','Chuck Coordinator','Administration','chuck@colorado.edu','3-1111');
-Insert into Employee (empno,empname,department,email,phone) values ('E101','Mary Manager','Football','mary@colorado.edu','5-1111');
-Insert into Employee (empno,empname,department,email,phone) values ('E102','Sally Supervisor','Planning','sally@colorado.edu','3-2222');
-Insert into Employee (empno,empname,department,email,phone) values ('E103','Alan Administrator','Administration','alan@colorado.edu','3-3333');
+Use dwh_test;
 
 Insert into Customer (custno,custname,address,internal,contact,phone,city,state,zip) values ('C100','Football','Box 352200','Y','Mary Manager','6857100','Boulder','CO','80309');
 Insert into Customer (custno,custname,address,internal,contact,phone,city,state,zip) values ('C101','Men''s Basketball','Box 352400','Y','Sally Supervisor','5431700','Boulder','CO','80309');
@@ -9,12 +6,10 @@ Insert into Customer (custno,custname,address,internal,contact,phone,city,state,
 Insert into Customer (custno,custname,address,internal,contact,phone,city,state,zip) values ('C104','Women''s Softball','Box 351200','Y','Sue Softball','5434321','Boulder','CO','80309');
 Insert into Customer (custno,custname,address,internal,contact,phone,city,state,zip) values ('C105','High School Football','123 AnyStreet','N','Coach Bob','4441234','Louisville','CO','80027');
 
-Insert into ResourceTbl (resno,resname,rate) values ('R100','attendant',10);
-Insert into ResourceTbl (resno,resname,rate) values ('R101','police',15);
-Insert into ResourceTbl (resno,resname,rate) values ('R102','usher',10);
-Insert into ResourceTbl (resno,resname,rate) values ('R103','nurse',20);
-Insert into ResourceTbl (resno,resname,rate) values ('R104','janitor',15);
-Insert into ResourceTbl (resno,resname,rate) values ('R105','food service',10);
+Insert into Employee (empno,empname,department,email,phone) values ('E100','Chuck Coordinator','Administration','chuck@colorado.edu','3-1111');
+Insert into Employee (empno,empname,department,email,phone) values ('E101','Mary Manager','Football','mary@colorado.edu','5-1111');
+Insert into Employee (empno,empname,department,email,phone) values ('E102','Sally Supervisor','Planning','sally@colorado.edu','3-2222');
+Insert into Employee (empno,empname,department,email,phone) values ('E103','Alan Administrator','Administration','alan@colorado.edu','3-3333');
 
 Insert into Facility (facno,facname) values ('F100','Football stadium');
 Insert into Facility (facno,facname) values ('F101','Basketball arena');
@@ -28,6 +23,13 @@ Insert into Location (locno,facno,locname) values ('L103','F101','Locker room');
 Insert into Location (locno,facno,locname) values ('L104','F100','Ticket Booth');
 Insert into Location (locno,facno,locname) values ('L105','F101','Gate');
 Insert into Location (locno,facno,locname) values ('L106','F100','Pedestrian gate');
+
+Insert into ResourceTbl (resno,resname,rate) values ('R100','attendant',10);
+Insert into ResourceTbl (resno,resname,rate) values ('R101','police',15);
+Insert into ResourceTbl (resno,resname,rate) values ('R102','usher',10);
+Insert into ResourceTbl (resno,resname,rate) values ('R103','nurse',20);
+Insert into ResourceTbl (resno,resname,rate) values ('R104','janitor',15);
+Insert into ResourceTbl (resno,resname,rate) values ('R105','food service',10);
 
 Insert into EventRequest (eventno,dateheld,datereq,custno,facno,dateauth,status,estcost,estaudience,budno) values ('E100',str_to_date('25,OCT,13','%d,%b,%y'),str_to_date('06,JUN,13','%d,%b,%y'),'C100','F100',str_to_date('08,JUN,13','%d,%b,%y'),'Approved',5000,80000,'B1000');
 Insert into EventRequest (eventno,dateheld,datereq,custno,facno,dateauth,status,estcost,estaudience,budno) values ('E101',str_to_date('26,OCT,13','%d,%b,%y'),str_to_date('28,JUL,13','%d,%b,%y'),'C100','F100',null,'Pending',5000,80000,'B1000');
@@ -78,6 +80,3 @@ Insert into EventPlanLine (PlanNo,LineNo,TimeStart,TimeEnd,NumberFld,LocNo,ResNo
 Insert into EventPlanLine (PlanNo,LineNo,TimeStart,TimeEnd,NumberFld,LocNo,ResNo) values ('P95',3, str_to_date('26,OCT,13 10:00:00','%d,%b,%y %H:%i:%s'), str_to_date('26,OCT,13 15:00:00','%d,%b,%y %H:%i:%s'),4,'L106','R100');
 Insert into EventPlanLine (PlanNo,LineNo,TimeStart,TimeEnd,NumberFld,LocNo,ResNo) values ('P95',4, str_to_date('26,OCT,13 13:00:00','%d,%b,%y %H:%i:%s'), str_to_date('26,OCT,13 17:00:00','%d,%b,%y %H:%i:%s'),2,'L100','R103');
 Insert into EventPlanLine (PlanNo,LineNo,TimeStart,TimeEnd,NumberFld,LocNo,ResNo) values ('P95',5, str_to_date('26,OCT,13 13:00:00','%d,%b,%y %H:%i:%s'), str_to_date('26,OCT,13 17:00:00','%d,%b,%y %H:%i:%s'),2,'L101','R104');
-
-
-
